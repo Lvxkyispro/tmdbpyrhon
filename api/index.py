@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler
 import json
 from urllib.parse import urlparse, parse_qs
 
-TMDB_KEY = os.getenv("TMDB_API_KEY")
+TMDB_KEY = "8452fead25d0dd27fd24c19fefdde496"
 if not TMDB_KEY:
     raise SystemExit("⚠️ Please set TMDB_API_KEY environment variable")
 
